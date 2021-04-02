@@ -1,0 +1,117 @@
+:root {
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-darkblue: hsl(229, 23%, 23%);
+  --dark-grayishblue: hsl(227, 10%, 46%);
+  --dark-gray: hsl(0, 0%, 59%);
+  --light-gray:  hsl(227, 10%, 90%);
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: var(--dark-cyan);
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 45vw bottom 20vw, left 35vw top 30vw;
+}
+
+h1 {
+  font-size: 3.7rem;
+  color: var(--dark-gray);
+}
+
+span {
+  font-weight: 400;
+  color: var(--dark-gray);
+}
+
+.coded {
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+  
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+
+}
+
+.card {
+  background-color: white;
+  width: 350px;
+  border-radius: 20px;
+  overflow: hidden;
+  max-width: 360px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 2px solid var(--light-gray);
+}
+
+.card-body-title {
+  margin: 0;
+  margin-top: 2rem;
+  color: var(--very-darkblue);
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-footer-social {
+  text-align: center;
+}
+
+h3 {
+  color: var(--very-darkblue);
+  font-size: 2rem;
+}
+
+p {
+  margin-top: 2rem;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: var(--dark-gray);
+}
+
+.card-body-text {
+  margin-bottom: 5rem;
+  color: var(--dark-gray);
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.card-header-img {
+  width: 200px;
+  height: 200px;
+  border: 5px solid white;
+  background-color: white;
+  margin-top: calc(-100px - 5px);
+  border-radius: 100px;
+  display: block;
+}
+
+
+
+/*# sourceMappingURL=estilos.css.map */
